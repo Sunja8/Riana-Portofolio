@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Riana Dwi Sunjadiyanti</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-[#F5EBDD] text-gray-800">
+  <!-- Navbar -->
+  <header class="fixed top-0 w-full bg-[#F5EBDD] shadow z-10">
+    <nav class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold">SunjaArch</h1>
+      <ul class="flex space-x-6 font-medium">
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portofolio</a></li>
+        <li><a href="#experience">Pengalaman</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pt-24 pb-16 text-center">
+    <h2 class="text-3xl font-bold">Halo, Saya Riana Dwi Sunjadiyanti</h2>
+    <p class="mt-4 text-lg">Engineering Drafter & Document Controller | Desain Arsitektur & Drafting</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-4xl mx-auto px-4 py-16">
+    <h3 class="text-2xl font-semibold mb-4">Tentang Saya</h3>
+    <p>
+      Saya memiliki pengalaman lebih dari 11 tahun di industri geothermal sebagai Engineering Drafter dan Document Controller. Terampil menggunakan AutoCAD, SketchUp, Enscape, 2D/3D drafting, dan Microsoft Office.
+    </p>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="bg-white py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h3 class="text-2xl font-semibold mb-8 text-center">Portofolio Proyek</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Ganti gambar sesuai proyek -->
+        <div class="shadow-lg rounded overflow-hidden">
+          <img src="gambar1.jpg" alt="Proyek 1" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h4 class="font-bold">Desain Rumah Tinggal</h4>
+            <p class="text-sm mt-2">SketchUp + Enscape</p>
+          </div>
+        </div>
+        <!-- Tambah gambar lainnya di sini -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="max-w-4xl mx-auto px-4 py-16">
+    <h3 class="text-2xl font-semibold mb-4">Pengalaman Kerja</h3>
+    <ul class="list-disc list-inside space-y-2">
+      <li><strong>StarEnergy Geothermal (2011–2022)</strong> – Engineering Drafter & Document Controller</li>
+      <li>Menangani gambar teknis proyek, kontrol dokumen, dan pembaruan drawing as-built</li>
+      <li>Pengalaman bekerja lintas tim engineering dan project management</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-white py-16 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-2xl font-semibold mb-4">Kontak Saya</h3>
+      <p class="mb-6">Hubungi saya untuk kerja sama proyek atau posisi pekerjaan.</p>
+      <form class="space-y-4 max-w-md mx-auto">
+        <input type="text" placeholder="Nama" class="w-full p-2 border rounded" />
+        <input type="email" placeholder="Email" class="w-full p-2 border rounded" />
+        <textarea placeholder="Pesan" class="w-full p-2 border rounded"></textarea>
+        <button type="submit" class="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">Kirim</button>
+      </form>
+      <p class="mt-6">Atau hubungi langsung: <a href="mailto:sunjadiyanti8@gmail.com" class="text-blue-600">sunjadiyanti8@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer class="text-center py-6 text-sm text-gray-600">
+    &copy; 2025 Riana Dwi Sunjadiyanti. All rights reserved.
+  </footer>
+</body>
+</html>
